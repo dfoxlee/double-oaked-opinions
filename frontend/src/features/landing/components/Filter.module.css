@@ -1,0 +1,12 @@
+.container {
+   position: relative;
+}
+
+.modalWrapper {
+   position: absolute;
+   display: none;
+}
+
+.modalWrapperOpen {
+   display: block;
+}

@@ -1,0 +1,37 @@
+.wrapper {
+   width: 90vw;
+   max-width: 400px;
+   margin: 50px auto 0;
+}
+
+.bourbonImg {
+   height: 300px;
+   margin: 0 auto;
+}
+
+.bourbonName {
+   text-align: center;
+   font-size: 1.25rem;
+   font-weight: 500;
+}
+
+.starsWrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5px;
+}
+
+.starsWrapper > *:not(:first-child) {
+   margin-left: 5px;
+}
+
+.starIcon {
+   color: goldenrod;
+   font-size: 1.5rem;
+}
+
+.description {
+   text-align: center;
+   margin-top: 10px;
+}
